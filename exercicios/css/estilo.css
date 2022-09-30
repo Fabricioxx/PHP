@@ -1,0 +1,36 @@
+/* commit */
+
+
+
+/* tudo que estiver dentro da tag BODY vai receber esta formatação */
+body{ 
+
+font-family:Tahoma;
+font-size: 14px;
+color: #34495e;
+}
+
+/* cliado uma classe menu */
+.menu{
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+/* classe para editar a tag UL que estiverem dentro da CLASSE MENU */
+.menu ul{
+
+	list-style: none; /* remover os pontos de marcação que tem antes das palavras no menu */
+    padding: 0px; /* padding é o tamanho da margem entre os elementos, (espaçamento) */
+}
+
+/* classe para editar os atributos(LI) que estão dentro da tag UL(lista) que esta dentro da classe menu */
+.menu ul li{
+    display: inline-block; /* mater os atributos em blocos em linha um ao lado do outro */
+    padding: 5px; /* almentar a margem */
+}
+
+/* editar o a tag A(tag de link) que estiver na CLASSE MENU*/
+.menu a{
+	text-decoration: none; /* remover o anderline que tem embaixo da palavra */
+    color: #1abc9c; /* alterar a cor do link */
+}
