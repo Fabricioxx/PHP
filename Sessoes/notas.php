@@ -13,7 +13,7 @@
          //isset() verifica se a variável existe
 		 if(!isset($_SESSION['totalAlunos'])){ // verifica se a variável de sessão existe
 
-		    $_SESSION['totalAlunos'] = 1;	 // se não existir, cria a variável de sessão
+		    $_SESSION['totalAlunos'] = 1;	 // se não existir, cria a variável de sessão do tipo Inteiro
 		 }
 	  ?>
 
