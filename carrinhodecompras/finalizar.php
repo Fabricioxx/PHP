@@ -2,44 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carrinho</title>
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 <?php include_once 'menu.php'; session_start(); ?>
 
-
 <div class="container">
-        <div class="carrinho">
-            <h1>Carrinho de Compras</h1> <!-- titulo -->
-            <?php 
+    <div class="carrinho">
+    <center> <h1>Compra Finalizada !</h1> <!-- titulo -->
+        <?php 
+
+        $total = 0;
 
      if(isset($_SESSION['carrinho'])){ 
 
        
         echo '<table>'; // abre a tabela
         echo '<tr>'; // abre a linha
-        echo '<th>Produto</th>'; // coluna 1
-        echo '<th>Preço</th>'; // coluna 2
+        echo '<th>Total</th>'; // coluna 1
         echo '</tr>'; // fecha a linha
      foreach($_SESSION['carrinho'] as $x){
-        echo '<tr>'; 
-        echo '<td>' . $x['nome'] . '</td>';
-        echo '<td align = center>' . $x['valor'] . '</td>';
-        echo '</tr>';
+
+        $total += $x['valor'];
+        
      }
-     echo '</table>'; // fecha a tabela
+        echo '<tr>'; 
+        echo '<td align = center> R$ ' . $total . '</td>';
+        echo '</tr>';
+       echo '</table>'; // fecha a tabela
 
         }
         else{
             echo 'Carrinho vazio';
         }
    ?>
-            <div class="finalizar">
-                <a href="finalizar.php">Finalizar Compra</a>
-            </div>
-        </div>
+    </center>
+    </div>
 
 
     

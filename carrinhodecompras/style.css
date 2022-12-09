@@ -1,0 +1,109 @@
+
+.menu{
+	font-size: 12px;
+	font-family: Verdana;
+    background-color: rgb(37, 37, 39); /*muda a cor de todo o fundo do menu*/
+}
+
+.menu ul{
+
+	list-style: none; /* remover os pontos de marcação que tem antes das palavras no menu */
+    padding: 0px; /* padding é o tamanho da margem entre os elementos, (espaçamento) */
+}
+
+/* classe para editar os atributos(LI) que estão dentro da tag UL(lista) que esta dentro da classe menu */
+.menu ul li{
+    display: inline-block; /* mater os atributos em blocos em linha um ao lado do outro */
+    padding: 5px; /* almentar a margem */
+}
+
+/* editar o a tag A(tag de link) que estiver na CLASSE MENU*/
+.menu a{
+	text-decoration: none; /* remover o anderline que tem embaixo da palavra */
+    color: #1abc9c; /* alterar a cor do link */
+}
+
+/* ------------------------------------------------------ */
+
+
+.cadastrar {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1abc9c;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Verdana;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------ */
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------ */
+
+.carrinho {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc; /* sombra  */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: #1abc9c;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+/* ------------------------------------------------------ */
+
+.inicio {
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc; /* sombra  */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+
+img{
+
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc; /* sombra  */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: Verdana;
+}
